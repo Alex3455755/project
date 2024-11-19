@@ -772,4 +772,7 @@ text-decoration-skip-ink: none;
         border: 2px solid #E40000;
         border-radius: 5px;
     }
+    .burger a:hover{
+        color: #e77a7a;
+    }
 }
