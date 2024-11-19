@@ -125,7 +125,6 @@ section.slider button{
 .slider .container div{
     display: flex;
     justify-content: space-between;
-    height: 45px;
     margin-top: 50px;
     align-items: center;
 }
@@ -144,6 +143,12 @@ section.slider button{
 }
 .slider .container div img:nth-child(1){
     height: auto;
+}
+.slider_block{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    overflow: scroll;
 }
 .label{
     background-color: #161616;
@@ -648,10 +653,6 @@ text-decoration-skip-ink: none;
     .slider{
         margin-top: 100px;
     }
-    .slider .container div{
-        overflow: scroll;
-        height: 50px;
-    }
     .slider .container img{
         margin-right: 20px;
         height: 27px;
@@ -731,20 +732,38 @@ text-decoration-skip-ink: none;
     #apgrade > div > div > div{
         align-items: start;
     }
-
-    .burger{
+    .show_burger{
         display: flex;
+    }
+    .transform{
+        transform: rotate(90deg);
+    }
+    .burger{
+        z-index: 1;
         flex-direction: column;
         position: absolute;
-        top: 0;
+        top: 60px;
         right: 0;
         background-color: #E40000;
         padding: 20px;
+        border-radius: 10px;
     }
     .burger ul{
         flex-direction: column;
     }
     .burger a {
         color: white;
+    }
+    .burger_button{
+        transition-duration: 2s;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 6px;
+        width: 30px;
+    }
+    .burger_button div{
+        border: 2px solid #E40000;
+        border-radius: 5px;
     }
 }
