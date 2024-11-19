@@ -402,6 +402,9 @@ text-decoration-skip-ink: none;
     display: flex;
     justify-content: space-between;
 }
+.burger_button{
+    display: none;
+}
 #apgrade > div > div >div p{
     margin-top: 56px;
     margin-bottom: 20px;
