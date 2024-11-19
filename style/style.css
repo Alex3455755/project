@@ -7,6 +7,9 @@
     font-size: 17px;
     box-sizing: border-box;
 }
+nav a:hover{
+    color: #e03f3f;
+}
 .container{
     margin: 0 auto;
     width: 1160px;
@@ -148,7 +151,7 @@ section.slider button{
     display: flex;
     justify-content: space-between;
     width: 80%;
-    overflow: scroll;
+    overflow: hidden;
 }
 .label{
     background-color: #161616;
